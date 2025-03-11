@@ -1,4 +1,4 @@
-﻿namespace TestLibraries
+﻿namespace PleasanterTest
 {
     [TestClass]
     public sealed class Test1

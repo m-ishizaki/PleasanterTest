@@ -13,12 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="Implem.Libraries">
-      <HintPath>..\..\..\Implem.Pleasanter\Implem.Pleasanter\bin\Release\net8.0\Implem.Libraries.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
-  <ItemGroup>
     <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
   </ItemGroup>
 

@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.35821.62 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PleasanterTest", "PleasanterTest\PleasanterTest.csproj", "{7C1B2AF5-083D-429C-97E6-6ADBF1B90C78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectTestables", "CollectTestables\CollectTestables.csproj", "{BA80EE10-E74F-4953-BDE7-86BCC48326EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implem.Pleasanter", "..\..\..\Implem.Pleasanter\Implem.Pleasanter\Implem.Pleasanter.csproj", "{08D47F16-E29D-58CB-E6FB-74E2A546EBCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implem.CodeDefiner", "..\..\..\Implem.Pleasanter\Implem.CodeDefiner\Implem.CodeDefiner.csproj", "{2DD60294-F3FA-978C-EE32-24AD8D51BD3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "implem.TestAutomation", "..\..\..\Implem.Pleasanter\Implem.TestAutomation\implem.TestAutomation.csproj", "{10B96E22-4A87-8E2D-7377-1936784606FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C1B2AF5-083D-429C-97E6-6ADBF1B90C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C1B2AF5-083D-429C-97E6-6ADBF1B90C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C1B2AF5-083D-429C-97E6-6ADBF1B90C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C1B2AF5-083D-429C-97E6-6ADBF1B90C78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA80EE10-E74F-4953-BDE7-86BCC48326EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA80EE10-E74F-4953-BDE7-86BCC48326EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA80EE10-E74F-4953-BDE7-86BCC48326EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA80EE10-E74F-4953-BDE7-86BCC48326EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08D47F16-E29D-58CB-E6FB-74E2A546EBCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08D47F16-E29D-58CB-E6FB-74E2A546EBCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08D47F16-E29D-58CB-E6FB-74E2A546EBCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08D47F16-E29D-58CB-E6FB-74E2A546EBCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD60294-F3FA-978C-EE32-24AD8D51BD3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD60294-F3FA-978C-EE32-24AD8D51BD3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD60294-F3FA-978C-EE32-24AD8D51BD3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD60294-F3FA-978C-EE32-24AD8D51BD3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10B96E22-4A87-8E2D-7377-1936784606FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10B96E22-4A87-8E2D-7377-1936784606FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10B96E22-4A87-8E2D-7377-1936784606FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10B96E22-4A87-8E2D-7377-1936784606FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E12EB5AE-2904-424B-9BC8-2C23502B91E9}
+	EndGlobalSection
+EndGlobal

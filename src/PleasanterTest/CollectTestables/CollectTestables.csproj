@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Implem.Pleasanter\Implem.CodeDefiner\Implem.CodeDefiner.csproj" />
+    <ProjectReference Include="..\..\..\..\Implem.Pleasanter\Implem.Pleasanter\Implem.Pleasanter.csproj" />
+    <ProjectReference Include="..\..\..\..\Implem.Pleasanter\Implem.TestAutomation\implem.TestAutomation.csproj" />
+  </ItemGroup>
+
+</Project>
