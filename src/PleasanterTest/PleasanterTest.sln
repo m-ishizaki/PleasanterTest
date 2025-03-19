@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.35821.62 d17.14
+VisualStudioVersion = 17.14.35821.62
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PleasanterTest", "PleasanterTest\PleasanterTest.csproj", "{7C1B2AF5-083D-429C-97E6-6ADBF1B90C78}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implem.CodeDefiner", "..\..\..\Implem.Pleasanter\Implem.CodeDefiner\Implem.CodeDefiner.csproj", "{2DD60294-F3FA-978C-EE32-24AD8D51BD3A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "implem.TestAutomation", "..\..\..\Implem.Pleasanter\Implem.TestAutomation\implem.TestAutomation.csproj", "{10B96E22-4A87-8E2D-7377-1936784606FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implem.Libraries", "..\..\..\Implem.Pleasanter\Implem.Libraries\Implem.Libraries.csproj", "{E163302B-006E-92B9-EFEB-32AFD24C4CD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{10B96E22-4A87-8E2D-7377-1936784606FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10B96E22-4A87-8E2D-7377-1936784606FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10B96E22-4A87-8E2D-7377-1936784606FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E163302B-006E-92B9-EFEB-32AFD24C4CD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E163302B-006E-92B9-EFEB-32AFD24C4CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E163302B-006E-92B9-EFEB-32AFD24C4CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E163302B-006E-92B9-EFEB-32AFD24C4CD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
