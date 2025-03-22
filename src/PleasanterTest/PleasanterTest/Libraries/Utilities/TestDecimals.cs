@@ -7,14 +7,22 @@
         private static void M(decimal? input) => Assert.AreEqual(input?.ToString("G29") ?? "0", Implem.Libraries.Utilities.Decimals.TrimEndZero(input));
 
         [TestMethod]
-        public void TrimEndZero_ShouldReturnZero_WhenInputIsZero() => M(0m);
+        public void TrimEndZero_NotNullable_WhenInputIsZero() => M(0m);
         [TestMethod]
-        public void TrimEndZero_ShouldReturnSameNumber_WhenInputHasNoTrailingZeros() => M(123.45m);
+        public void TrimEndZero_NotNullable_WhenInputHasNoTrailingZeros() => M(123.45m);
         [TestMethod]
-        public void TrimEndZero_ShouldReturnTrimmedNumber_WhenInputHasTrailingZeros() => M(123.4500m);
+        public void TrimEndZero_NotNullable_WhenInputHasTrailingZeros() => M(123.4500m);
         [TestMethod]
-        public void TrimEndZero_ShouldReturnTrimmedNumber_WhenInputHasTrailingZeros29() => M(9.999_000_000_000_000_000_000_000_000m);
+        public void TrimEndZero_NotNullable_WhenInputHasTrailingZeros29() => M(9.999_000_000_000_000_000_000_000_000m);
         [TestMethod]
-        public void TrimEndZero_ShouldReturnTrimmedNumber_WhenInputIsNull() => M(null);
+        public void TrimEndZero_Nullable_WhenInputIsZero() => M(0m);
+        [TestMethod]
+        public void TrimEndZero_Nullable_WhenInputHasNoTrailingZeros() => M(123.45m);
+        [TestMethod]
+        public void TrimEndZero_Nullable_WhenInputHasTrailingZeros() => M(123.4500m);
+        [TestMethod]
+        public void TrimEndZero_Nullable_WhenInputHasTrailingZeros29() => M(9.999_000_000_000_000_000_000_000_000m);
+        [TestMethod]
+        public void TrimEndZero_Nullable_WhenInputIsNull() => M(null);
     }
 }
