@@ -13,10 +13,6 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        dotnet-version: [ "8.0.x", "10.0.x" ]
         
     steps:
     - uses: actions/checkout@v4
@@ -26,11 +22,16 @@ jobs:
       with:
         repository: pleasanter-developer-community/Implem.Pleasanter
         path: Implem.Pleasanter
+
+    - name: Remove specific file
+      run: |
+        rm -f Implem.Pleasanter/global.json
+        echo "File removed successfully."        
     
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: ${{ matrix.dotnet-version }}
+        dotnet-version: 10.0.x
     - name: Restore dependencies
       run: dotnet restore ./src/PleasanterTest/PleasanterTest/
     - name: Build
