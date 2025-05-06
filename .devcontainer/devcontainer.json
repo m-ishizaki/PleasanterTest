@@ -1,6 +1,6 @@
 {
     "name": ".NET in Codespaces",
-    "image": "mcr.microsoft.com/dotnet/sdk:9.0",
+    "image": "mcr.microsoft.com/dotnet/sdk:8.0",
     "features": {
         "ghcr.io/devcontainers/features/docker-in-docker:2": {
             "moby": false
@@ -13,7 +13,7 @@
         },
         "ghcr.io/devcontainers/features/common-utils:2": {},
         "ghcr.io/devcontainers/features/dotnet:2": {
-            "version": "8.0",
+            "version": "none",
             "dotnetRuntimeVersions": "8.0",
             "aspNetCoreRuntimeVersions": "8.0"
         }
@@ -32,7 +32,7 @@
         8080,
         8081
     ],
-    "postCreateCommand": "git clone https://github.com/pleasanter-developer-community/Implem.Pleasanter.git ../Implem.Pleasanter && cd /src/PleasanterTest/PleasanterTest && dotnet test",
+    "postCreateCommand": "git clone https://github.com/pleasanter-developer-community/Implem.Pleasanter.git ../Implem.Pleasanter && cd ./src/PleasanterTest/PleasanterTest && dotnet test",
     "hostRequirements": {
         "memory": "8gb",
         "cpus": 2
