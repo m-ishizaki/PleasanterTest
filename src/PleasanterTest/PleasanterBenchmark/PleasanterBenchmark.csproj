@@ -13,7 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\..\Implem.Pleasanter\Implem.Libraries\Implem.Libraries.csproj" />
-    <ProjectReference Include="..\..\..\..\TinyBenchmark\src\TinyBenchmark\TinyBenchmark\TinyBenchmark.csproj" />
+	<!-- ProjectReference Include="..\..\..\..\TinyBenchmark\src\TinyBenchmark\TinyBenchmark\TinyBenchmark.csproj" / -->
   </ItemGroup>
 
 </Project>

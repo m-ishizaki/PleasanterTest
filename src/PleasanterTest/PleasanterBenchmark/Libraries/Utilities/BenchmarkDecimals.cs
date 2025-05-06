@@ -1,10 +1,11 @@
 ﻿using BenchmarkDotNet.Attributes;
-using RkSoftware.TinyBenchmark.Attributes;
+//using RkSoftware.TinyBenchmark.Attributes;
 
 namespace PleasanterBenchmark.Libraries.Utilities
 {
     public class BenchmarkDecimals
     {
+        /*
         [TinyBenchmark]
         [Benchmark]
         public static void TrimEndZero_ShouldReturnZero_WhenInputIsZero() => Implem.Libraries.Utilities.Decimals.TrimEndZero(0m);
@@ -53,6 +54,7 @@ namespace PleasanterBenchmark.Libraries.Utilities
         [TinyBenchmark]
         [Benchmark]
         public static void TrimEndZero_ShouldReturnTrimmedNumber_WhenInputAllowNullHasTrailingZeros_G29() => M((decimal?)123.4500m);
+        */
 
 
         private static string M(decimal input) => input.ToString("G29");
