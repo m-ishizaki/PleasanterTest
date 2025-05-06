@@ -32,13 +32,9 @@
         8080,
         8081
     ],
-    "postCreateCommand": "git clone https://github.com/pleasanter-developer-community/Implem.Pleasanter.git ../Implem.Pleasanter && cd ./src/PleasanterTest/PleasanterTest && dotnet test",
+    "postCreateCommand": "git clone https://github.com/pleasanter-developer-community/Implem.Pleasanter.git ../Implem.Pleasanter",
     "hostRequirements": {
         "memory": "8gb",
         "cpus": 2
-    },
-    "remoteEnv": {
-        "DOTNET_MULTILEVEL_LOOKUP": "0",
-        "TARGET": "net9.0"
     }
 }
