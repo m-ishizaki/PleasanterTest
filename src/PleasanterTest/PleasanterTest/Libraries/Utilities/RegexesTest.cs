@@ -1,9 +1,6 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Implem.Libraries.Utilities;
-using System.Text.RegularExpressions;
-using System.Linq;
 
-namespace Implem.Libraries.Utilities.Tests
+namespace PleasanterTest.Libraries.Utilities
 {
     [TestClass]
     public class RegexesTest
